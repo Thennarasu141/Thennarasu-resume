@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venu's PortFolio</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h2>PortFolio</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <div id="home">
+        <div class="profile-img">
+            <img class="profile" src="img/then.jpg" alt="">
+        </div>
+        <div class="animated-text">
+            <span>F</span><span>r</span><span>o</span><span>n</span><span>t</span><span>e</span><span>n</span><span>d</span>&nbsp;
+            <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+        </div>
+        <div class="objective">
+            A highly motivated and detail-oriented Frontend Developer with a passion for creating responsive, user-friendly, and visually appealing web applications. Skilled in HTML, CSS, JavaScript, and modern frameworks to deliver seamless user experiences. Seeking an opportunity to leverage my technical skills and creativity to develop dynamic, interactive, and accessible web solutions while continuously enhancing my expertise in frontend technologies.
+        </div>
+    </div><br>
+    <div id="skills">
+       <p class="skill-title">SKILLS</p>
+        <div class="card">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project">
+        <p class="project-title">MINI PROJECTS</p>
+        <div class="project-container">
+            <div class="card1">
+                <img class="img1" src="img/books.png" alt="Project 1">
+                <a href="projects/guidency.html">check</a>
+            </div>
+            <div class="card2">
+                <img class="img2" src="img/foodie.png" alt="Project 2">
+                <a href="projects/project 2.html">check</a>
+            </div>
+            <div class="card3">
+                <img class="img3" src="img/game.png" alt="Project 3">
+                <a href="projects/game.html">check</a>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <p class="contact-title">CONTACT</p>
+        <p class="contact-head">Let's Be In Touch</p>
+        <div class="contact-info">
+            <div class="contact-box">THENNARASU</div>
+            <div class="contact-box">INFORMATION TECHNOLOGY</div>
+            <div class="contact-box">9363103951</div>
+            <div class="contact-box">arasu14112005@gmail.com</div>
+        </div>
+    </div>
+    <div id="about">
+        <p class="about-title">ABOUT ME!</p>
+        <div class="about-container">
+            <div class="about-box">
+                <div class="about-icon">🎓</div>
+                <p>School Education</p>
+                <p>Non-CS Student</p>
+                
+            </div>
+            <div class="about-box">
+                <div class="about-icon">📚</div>
+                <p>Current Studies</p>
+                <p>Bachelor’s in IT</p>
+                <p ><a href="img/sem1.jpg">Sem 1</a></p>
+                <p><a href="img/sem2.jpg">Sem 2</a></p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">💻</div>
+                <p>Skills Learning</p>
+                <p>Python, VB.Net, C++</p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">🛠</div>
+                <p>Tools Used</p>
+                <p>VS Code, Git, Figma</p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">🏆</div>
+                <p>Competitions</p>
+                <p>10+ Technical Competitions</p>
+            </div>
+            <div class="about-box">
+                <div class="about-icon">⚽🏐🏏</div>
+                <p>Hobbies & Activities</p>
+                <p>Volleyball, Football, Cricket</p>
+            </div>
+        </div>  
+    </div>
+    <div class="personal-info">
+        <div class="resume-btn">
+             <a href="img/then.pdf">Personal Info</a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
